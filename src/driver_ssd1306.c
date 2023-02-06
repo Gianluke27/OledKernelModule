@@ -696,7 +696,7 @@ uint8_t ssd1306_gram_write_string(ssd1306_handle_t *handle, uint8_t x, uint8_t y
     {
         return 2;                                                            /* return error */
     }
-    if (handle->inited != 1)                                                 /* check handle initialization */
+    if (handle->inited != 1)                                             /* check handle initialization */
     {
         return 3;                                                            /* return error */
     }
